@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    max-width: 928px;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 25px;
+
+    &--white {
+        background-color: white;
+    }
+
+    &--separator-right {
+        border-right: 1px solid #dbdbdb;
+    }
+}
+
+.container {
+    max-width: 860px;
+    margin: auto;
+
+    &--centered {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.small-copy {
+    font-size: 11px;
+    margin-bottom: 8px;
+
+    &--white {
+        color: white;
+    }
+}

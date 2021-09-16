@@ -1,5 +1,7 @@
 const Policies = () => {
-    return <h1>Policies</h1>
+    return (
+        <section className="policies"></section>
+    )
 }
 
 export default Policies
