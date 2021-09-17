@@ -1,6 +1,10 @@
+import Navigation from "../../component/navigation/navigation"
+
 const Policies = () => {
     return (
-        <section className="policies"></section>
+        <div className="policies">
+            <Navigation />
+        </div>
     )
 }
 
