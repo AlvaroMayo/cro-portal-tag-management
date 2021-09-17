@@ -22,7 +22,8 @@
         }
     }
 
-    &__form-title {
+    &__form-title,
+    &__form-subtitle {
         color: #0971b0;
         margin-bottom: 24px;
     }
@@ -30,6 +31,7 @@
     &__form-subtitle {
         margin-bottom: 24px;
         align-self: flex-start;
+
     }
 
     &__form {
