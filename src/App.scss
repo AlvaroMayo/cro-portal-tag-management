@@ -48,6 +48,7 @@
 
 .main {
     transform: translateX(220px);
-    width: calc(100% - 220px);
     padding: 40px 32px;
+    margin-right: 220px;
+    max-width: 960px;
 }
