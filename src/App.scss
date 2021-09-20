@@ -16,6 +16,11 @@
     &--separator-right {
         border-right: 1px solid #dbdbdb;
     }
+
+    &--border {
+        border: 1px solid lightgray;
+        border-radius: 8px;
+    }
 }
 
 .container {
