@@ -1,11 +1,13 @@
 import Navigation from "../../component/navigation/navigation"
 import QuickLinks from "../../component/policies/quicklinks"
+import Salutation from "../../component/shared/salutation/salutation";
 import "./policies.scss";
 
 const Policies = () => {
     return (
         <div className="policies">
             <Navigation />
+            <Salutation />
             <div className="main">
                 <div>
                     <h1 className="policies__title">My policies</h1>

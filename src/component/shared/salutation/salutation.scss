@@ -1,0 +1,11 @@
+.salutation {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+
+    &__container {
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px 0;
+    }
+}
