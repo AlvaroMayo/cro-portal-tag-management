@@ -3,7 +3,8 @@ import "./salutation.scss";
 
 const Salutation = () => {
     const [time, setTime] = useState('');
-
+    useEffect(() => {updateTime()})
+    
     const updateTime = () => {
         const date = new Date();
         const hour = date.getHours();
@@ -18,8 +19,6 @@ const Salutation = () => {
             setTime('day');
         }
     }
-
-    useEffect(() => {updateTime()})
 
     return (
         <div className="salutation">
