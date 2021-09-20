@@ -9,7 +9,7 @@ const Navigation = () => {
                 { window.location.pathname === "/policies" ? <li  className="selected">My policies</li> : <li>My policies</li>}
                 </Link>
                 <Link to="/offers">
-                    <li>Offers</li>
+                { window.location.pathname === "/offers" ? <li  className="selected">Offers</li> : <li>Offers</li>}
                 </Link>
                 <Link to="/">
                     <li>Sign out</li>
