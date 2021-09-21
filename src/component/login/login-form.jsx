@@ -27,7 +27,7 @@ const LoginForm = () => {
                     </Link>
                     :
                     <div>
-                        <p>{errorMessage}</p>
+                        <p className="landing__error">{errorMessage}</p>
                         <button onClick={errorMessageHandler} type="button">Log in</button>
                     </div>
                 }

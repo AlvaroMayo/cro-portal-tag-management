@@ -31,7 +31,12 @@
     &__form-subtitle {
         margin-bottom: 24px;
         align-self: flex-start;
+    }
 
+    &__error {
+        color: #ff0033;
+        font-size: 14px;
+        margin-bottom: 14px;
     }
 
     &__form {
