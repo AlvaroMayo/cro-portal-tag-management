@@ -1,0 +1,42 @@
+.offer {
+    width: 41%;
+
+    &__actions {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__title,
+    &__copy {
+        color: #4a4a4a;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__copy {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &__button {
+        background-color: #006bac;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: none;
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+    &__link {
+        color: #006bac;
+        text-decoration: underline;
+    }
+
+}
