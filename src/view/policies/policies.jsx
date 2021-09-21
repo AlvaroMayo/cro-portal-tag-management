@@ -1,5 +1,6 @@
-import Navigation from "../../component/navigation/navigation"
-import QuickLinks from "../../component/policies/quicklinks"
+import Navigation from "../../component/navigation/navigation";
+import ActivePolicies from "../../component/policies/ActivePolicies";
+import QuickLinks from "../../component/quick-links/quicklinks";
 import Salutation from "../../component/shared/salutation/salutation";
 import "./policies.scss";
 
@@ -14,6 +15,7 @@ const Policies = () => {
                     <p className="policies__subtitle">Click the details button on your policy card to see your cover details and documents, make changes, find quotes or claim</p>
                 </div>
                 <QuickLinks />
+                <ActivePolicies />
             </div>
         </div>
     )

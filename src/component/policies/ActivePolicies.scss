@@ -1,0 +1,58 @@
+.active-policies {
+    display: flex;
+    justify-content: space-between;
+    color: #4a4a4a;
+
+    &__policies {
+        width: 42%;
+    }
+
+    &__title {
+        color: #4a4a4a;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__registration {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 11px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    &__period {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__period-date {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 83px;
+        border-radius: 30px;
+        height: 40px;
+        box-shadow: transparent;
+        border-color: transparent;
+        background-color: #006bac;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #3389bd;
+        }
+    }
+}

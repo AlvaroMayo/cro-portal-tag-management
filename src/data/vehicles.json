@@ -1,0 +1,20 @@
+{
+    "cars": [
+      {
+        "carId": 1,
+        "makeModel": "Mercedes-Benz CLK 220",
+        "registrationNumber": "SL12POD",
+        "policyNumber": "123456",
+        "coverStart": "02 Jun 2020",
+        "coverEnd": "02 Jun 2021"
+      },
+      {
+        "carId": 2,
+        "makeModel": "Peugeot 407cc",
+        "registrationNumber": "CN18LJL",
+        "policyNumber": "654321",
+        "coverStart": "02 May 2020",
+        "coverEnd": "02 May 2021"
+      }
+    ]
+  }
